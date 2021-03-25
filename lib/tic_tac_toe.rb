@@ -27,5 +27,6 @@ class TicTacToe
   end
 
   def move(move, players_token = "X")
+    players_token[0]
   end
 end
