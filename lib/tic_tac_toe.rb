@@ -32,10 +32,6 @@ class TicTacToe
   end
 
   def position_taken?(index)
-    if index.include?("X") || index.include?("O")
-      return true
-    else
-      false
-    end
+    !(@board[index].nil? || @board[index] == " ")
   end
 end
