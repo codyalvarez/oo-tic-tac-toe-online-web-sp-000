@@ -53,7 +53,7 @@ class TicTacToe
       count += 1 if pos == "X" || pos == "O"
     end
     count
-end
+  end
 
 
 end
