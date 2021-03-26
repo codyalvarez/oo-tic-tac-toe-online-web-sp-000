@@ -105,12 +105,12 @@ class TicTacToe
     end
 
     def winner?
-      if won? 
-        arr = won? 
+      if won?
+        arr = won?
         winning = @board[arr[0]]
-        return winning 
+        return winning
       else
-        return nil 
+        return nil
       end
     end
 
