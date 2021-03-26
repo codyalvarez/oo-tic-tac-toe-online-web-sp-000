@@ -100,7 +100,7 @@ class TicTacToe
       end
     end
 
-    def over? 
+    def over?
     end
 
 
