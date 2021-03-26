@@ -55,7 +55,7 @@ class TicTacToe
     count
   end
 
-  def current_player 
+  def current_player
   end
 
 
