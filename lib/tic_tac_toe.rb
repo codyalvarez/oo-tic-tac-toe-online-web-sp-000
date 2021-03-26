@@ -74,6 +74,15 @@ class TicTacToe
   end
 
   def won?
+    WIN_COMBINATIONS.each do |el|
+      pos1 = @board[el[0]]
+      pos2 = @board[el[1]]
+      pos3 = @board[el[3]]
+      if (pos1 == "X" && pos2 == "X" && pos3 == "X") || (pos1 == "O" && pos2 == "O" && pos3 == "O")
+        return el
+      end
+    end
+    return false
   end
 
 end
