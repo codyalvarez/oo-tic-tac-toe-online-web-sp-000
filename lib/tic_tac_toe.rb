@@ -91,6 +91,6 @@ class TicTacToe
       end
     end
 
-    def draw? 
+    def draw?
     end
   end
