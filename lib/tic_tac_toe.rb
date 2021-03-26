@@ -61,7 +61,16 @@ class TicTacToe
   end
 
   def turn
-    user_input.gets.chomp
+  #   ask for input
+  move = input.gets.chomp
+  # get input
+  # translate input into index
+  # if index is valid
+  #   make the move for index
+  #   show the board
+  # else
+  #   restart turn
+  # end
   end
 
 
