@@ -104,7 +104,7 @@ class TicTacToe
       won? || draw? ? true : false
     end
 
-    def winner?
+    def winner
       if won?
         arr = won?
         winning = @board[arr[0]]
