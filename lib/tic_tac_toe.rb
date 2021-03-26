@@ -59,7 +59,7 @@ class TicTacToe
     tally = turn_count
     tally % 2 == 0 ? "X" : "O"
   end
-  end
+
 
 
 end
