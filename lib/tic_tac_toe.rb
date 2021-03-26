@@ -101,7 +101,7 @@ class TicTacToe
     end
 
     def over?
-      won? || draw? true : false
+      won? || draw? ? true : false
     end
 
 
