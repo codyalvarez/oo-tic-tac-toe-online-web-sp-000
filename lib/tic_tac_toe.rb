@@ -40,10 +40,10 @@ class TicTacToe
       if position_taken?(index)
         return false
       else
-        return true 
+        return true
       end
     else
-      return false 
-    
+      return false
+
   end
 end
