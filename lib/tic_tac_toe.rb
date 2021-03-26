@@ -60,7 +60,7 @@ class TicTacToe
     tally % 2 == 0 ? "X" : "O"
   end
 
-  def turn(user_input)
+  def turn
     user_input.gets.chomp
   end
 
